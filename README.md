@@ -44,3 +44,19 @@ ls - la
 
 ## HEAD
 *HEAD - последний и самый новый коммит*
+
+---
+
+## Log
+**git log** - история коммитов
+---
+**git log --oneline** - короткий лог коммитов с хэшами в одну строчку
+
+---
+
+```mermaid
+ graph LR;
+Изменения--> неотслеживаемые-untracked;
+отслеживаемые-tracked;
+staged-tracked-->git add + modified ;
+отслеживаемые-tracked--modified>;
