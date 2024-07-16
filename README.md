@@ -54,9 +54,9 @@ ls - la
 
 ---
 
+<тут пустая строка!>
+
 ```mermaid
- graph LR;
-Изменения--> неотслеживаемые-untracked;
-отслеживаемые-tracked;
-staged-tracked-->git add + modified ;
-отслеживаемые-tracked--modified>;
+%% описание схемы
+```
+<и тут пустая строка!> 
